@@ -1,0 +1,113 @@
+html{
+    background-color: #f3e5d7;
+}
+body{
+    font-size: 1em;
+    font-family: "Outfit", sans-serif;
+    font-style: normal;
+    color: #5f564d;
+    line-height: 150%;
+}
+.card{
+    margin: 0 auto;
+    width: 50vw;
+    height: 90%;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 24px;
+}
+.omlette{
+    display: block;
+    margin: 0px auto;
+    width: 100%;
+    border-radius: 12px;
+}
+.heading{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.75em;
+    color: #854632;
+    margin-left: 0.5em;
+}
+.main{
+    font-size: 2.5em;
+    color: #312e2c;
+    margin: 1em 0 2em 0;
+}
+.desc{
+    margin: 0.5em 0 0.75em 0.75em;
+}
+.nutrDesc{
+    margin: 0.5em 0 0.75em .0.75em;
+}
+.prepBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    background: #fff7fb;
+    height: 180px;
+    border-radius: 12px;
+    box-sizing: border-box;
+    padding: 15px;
+}
+.prepTime{
+    margin-top: 25px;
+    margin-left: 0.5em;
+}
+.step{
+    font-weight: bold;
+}
+ul{
+    list-style-position: outside;
+    padding-right: 20px;
+}
+li{
+    margin-bottom: 0.75em;
+    padding-left: 25px;
+}
+li::marker{
+    vertical-align: middle;
+}
+ul li::marker{
+    color: #854632;
+}
+ol li::marker{
+    color: #854632;
+    font-weight: bold;
+    font-size: 16px;
+}
+.gridContainer{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.header, .data{
+    padding: 10px;
+}
+.header{
+    color: #5f574e;
+    padding-left: 2.5em;
+}
+.data{
+    color:#854632;
+    padding-left: 2.5em;
+}
+hr{
+    height: 0.5px;
+    border: none;
+    border-top: 1px solid #e3ddd7;
+    margin-top: 2em;
+}
+.gridContainer .header:nth-child(-n+6){
+    border-bottom: 1px solid #e3ddd7;
+}
+.gridContainer .data:nth-child(-n+6){
+    border-bottom: 1px solid #e3ddd7;
+}
+.gridContainer .header:nth-child(-n+6):last-child{
+    border-bottom: none;
+}
+.gridContainer .header:nth-child(-n+6):not(:last-child){
+    padding-bottom: 0;
+}
